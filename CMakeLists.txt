@@ -29,7 +29,7 @@ find_package(Qt5 REQUIRED COMPONENTS Core Widgets Multimedia MultimediaWidgets Q
 file(GLOB ALL_SOURCES 
     "${CMAKE_CURRENT_SOURCE_DIR}/src/*.cpp"
     "${CMAKE_CURRENT_SOURCE_DIR}/src/*.h"
-    "${CMAKE_CURRENT_SOURCE_DIR}/UI/*.qml"
+    "${CMAKE_CURRENT_SOURCE_DIR}/ui/*.qml"
 )
 
 # ソースをこのプロジェクトの実行可能ファイルに追加します。

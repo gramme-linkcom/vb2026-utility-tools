@@ -16,7 +16,7 @@ int main(int argc, char* argv[])
     QObject::connect(&engine, &QQmlApplicationEngine::quit, &app, &QGuiApplication::quit);
 
     // もしリソース化していない場合は直接ファイルを指定（開発中はこれが楽です）
-    engine.load(QUrl::fromLocalFile("UI/main.qml"));
+    engine.load(QUrl::fromLocalFile("ui/main.qml"));
 
     if (engine.rootObjects().isEmpty())
         return -1;
