@@ -3,7 +3,7 @@ VB2026年で開発された、VBのカメラ処理システムなどの基本処
 
 # vcpkgのインストール方法
 vcpkg本体のインストール方法は、下記のURLを参照してください。
-https://sksp-tech.net/archives/544#toc12
+https://sksp-tech.net/archives/544#toc2
 
 インストールが完了したら、下記のコマンドを実行して、必要なライブラリをインストールしてください。
 ```
